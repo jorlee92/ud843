@@ -1,6 +1,10 @@
 package com.example.android.quakereport;
 
+import android.os.AsyncTask;
+
+import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 
 /**
@@ -40,5 +44,7 @@ public class EarthQuake {
         SimpleDateFormat dateFormatter = new SimpleDateFormat("MMM DD, yyyy");
         dateToDisplay = dateFormatter.format(dateObject);
     }
+
+
 
 }
