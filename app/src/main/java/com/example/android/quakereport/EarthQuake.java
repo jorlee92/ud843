@@ -1,10 +1,6 @@
 package com.example.android.quakereport;
 
-import android.os.AsyncTask;
-
-import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
 
 /**
